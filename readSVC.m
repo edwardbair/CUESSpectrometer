@@ -82,4 +82,10 @@ end
 if isnan(S.lon)
     S.lon = [];
 end
+
+kcomment=strfind(hdr,'comm=');
+k1=find(~cellfun(@isempty,kcomment))+1;
+kslot=strfind(hdr,'slot=');
+k2=find(~cellfun(@isempty,kslot))-2;
+S.comment=strjoin(hdr(k1:k2),' ');
 end

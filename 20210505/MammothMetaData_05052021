@@ -1,0 +1,99 @@
+Mammoth Mountain Sampling
+05/05/2021
+Field Notes Description
+Weather was calm and sunny with few-to-scattered cumulus clouds developing in early afternoon
+Snow was frozen early, but began to soften up around 8:30am.
+Normal scanning strategy was to do a reference scan, followed by a target scan.
+
+Note that the data was erased between each scanning period, so at the start of each Scanning period, the file is 000
+File naming convention is Rxxx_Txxx with "xxx" corresponding to the 3 digit number associated with a reference/target scanning pair.
+Data is organized:
+Wavelength, Reference dN, Target dN, Reflectance (%)
+
+Three Scanning Periods were performed with data stored in corresponding subfolders:
+1. Morning: Mammoth05052021_Morning
+2. Midday - Large Foreoptic: Mammoth_Mountain_05052021_Afternoon
+3. Midday - Gun Foreoptic: Mammoth_Mountain_05052021_Transmissivity
+
+Transmissivity variable is a yes/no flag (1/0) indicating that this scan was upward looking through the snow
+"ref" in the description column indicates a reference scan.
+
+Morning: Density of top-layer snow was 423 kg/m3
+Midday/Afternoon Sampling: Density of top-layer snow was 444
+
+Visible Grainsize through "Hole" for the Transmissivity measurements was approximately 2-3mm, and the poresize was approximately 3-4mm.
+
+Scan Number, Description, Foreoptic, Thickness (cm),Transmissivity,Scanning Period
+001,ref,large,NA,0,Morning
+002,Tan Plate,large,NA,0,Morning
+003,ref,large,NA,0,Morning
+004,Green Plate,large,NA,0,Morning
+005,ref,large,NA,0,Morning
+006,ref,large,NA,0,Morning
+007,ref,large,NA,0,Morning
+008,Rough Snow (3cm) over Black Panel,large,3,0,Morning
+009,ref,large,NA,0,Morning
+010,Rough Snow (3cm) over Green Panel,large,3,0,Morning
+011,ref,large,NA,0,Morning
+012,Rough Snow (3cm) over Tan Panel,large,3,0,Morning
+013,ref,large,NA,0,Morning
+014,ref,large,NA,0,Morning
+015,Smooth Snow,large,NA,0,Morning
+016,Smooth Snow,large,NA,0,Morning
+017,ref,large,NA,0,Morning
+018,Tan Plate,large,NA,0,Morning
+019,ref,large,NA,0,Morning
+020,Smooth Snow,large,NA,0,Morning
+021,ref,large,NA,0,Morning
+022,Smooth Snow (3cm) over Green Panel,large,3,0,Morning
+023,ref,large,NA,0,Morning
+024,Smooth Snow (3cm) over Tan Panel,large,3,0,Morning
+025,ref,large,NA,0,Morning
+001,ref,large,NA,0,Midday - Large Foreoptic
+002,Rough Snow,large,NA,0,Midday - Large Foreoptic
+003,ref,large,NA,0,Midday - Large Foreoptic
+004,Smooth Snow,large,NA,0,Midday - Large Foreoptic
+005,ref,large,NA,0,Midday - Large Foreoptic
+006,Bad Scan,large,NA,0,Midday - Large Foreoptic
+007,ref,large,NA,0,Midday - Large Foreoptic
+008,Smooth Snow (10cm) over Black Panel,large,10,0,Midday - Large Foreoptic
+009,ref,large,NA,0,Midday - Large Foreoptic
+010,Smooth Snow (4cm) over Black Panel - Bad Scan,large,4,0,Midday - Large Foreoptic
+011,ref,large,NA,0,Midday - Large Foreoptic
+012,Smooth Snow (4cm) over Black Panel,large,4,0,Midday - Large Foreoptic
+013,ref,large,NA,0,Midday - Large Foreoptic
+014,Smooth Snow (4cm) over Green Panel,large,4,0,Midday - Large Foreoptic
+015,ref - Bad Scan,large,NA,0,Midday - Large Foreoptic
+016,Tan Plate - Bad Scan,large,NA,0,Midday - Large Foreoptic
+017,ref,large,NA,0,Midday - Large Foreoptic
+018,Smooth Snow (4cm) over Tan Plate,large,4,0,Midday - Large Foreoptic
+019,ref,large,NA,0,Midday - Large Foreoptic
+020,Dry Green Panel,large,NA,0,Midday - Large Foreoptic
+021,ref,large,NA,0,Midday - Large Foreoptic
+022,Wet Green Panel,large,NA,0,Midday - Large Foreoptic
+023,ref,large,NA,0,Midday - Large Foreoptic
+024,Dry Tan Panel,large,NA,0,Midday - Large Foreoptic
+025,ref,large,NA,0,Midday - Large Foreoptic
+026,Wet Tan Panel,large,NA,0,Midday - Large Foreoptic
+027,Wet Tan Panel,large,NA,0,Midday - Large Foreoptic
+001,ref,gun,NA,0,Midday - Gun Foreoptic
+002,Smooth Snow,gun,0,Midday - Gun Foreoptic
+003,ref,gun,NA,0,Midday - Gun Foreoptic
+004,Upward looking through 11cm,gun,11,1,Midday - Gun Foreoptic
+005,ref,gun,NA,0,Midday - Gun Foreoptic
+006,ref,gun,NA,0,Midday - Gun Foreoptic
+007,Smooth Snow,gun,NA,0,Midday - Gun Foreoptic
+008,ref,gun,NA,0,Midday - Gun Foreoptic
+009,Upward Looking through 6cm,gun,6,1,Midday - Gun Foreoptic
+010,ref,gun,NA,0,Midday - Gun Foreoptic
+011,ref,gun,NA,0,Midday - Gun Foreoptic
+012,Smooth Snow,gun,NA,0,Midday - Gun Foreoptic
+013,ref,gun,NA,0,Midday - Gun Foreoptic
+014,Upward looking through 3cm,gun,3,1,011,ref,gun,NA,0,Midday - Gun Foreopti
+015,ref,gun,NA,0,Midday - Gun Foreoptic
+016,ref,gun,NA,0,Midday - Gun Foreoptic
+017,Smooth Snow,gun,NA,0,Midday - Gun Foreoptic
+018,ref,gun,NA,0,Midday - Gun Foreoptic
+019,Upward #1 through 2cm,2,1,Midday - Gun Foreoptic
+020,ref,gun,NA,0,Midday - Gun Foreoptic
+021,Upward #2 (Hole) through 2cm,2,1,Midday - Gun Foreoptic
